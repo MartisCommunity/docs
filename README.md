@@ -18,6 +18,25 @@ The centralization problem is essentially a wealth distribution problem! Marscoi
 
 ---
 
+## Node Port
+
+#### MainNet
+
+Type   | Port
+:---   | :---:
+P2P | 334
+API | 333
+RPC | 332
+
+#### TestNet
+
+Type   | Port
+:---   | :---:
+P2P | 434
+API | 433
+RPC | 432
+
+
 ## Quick Facts :zap::zap::zap:
 
 #### :icon-shield-check: No Pre-mine
