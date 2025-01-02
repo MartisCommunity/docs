@@ -5,17 +5,17 @@ order: 100
 ---
 # Create your wallet using CLI
 
-The Retype CLI is clean and simple. The majority of the time you will run just one command: `retype start`
-
 !!!
-Be sure to review the [project](/configuration/project.md) options available within the **retype.yml** as it does unlock more power, flexibility, and customization.
+Currently, the CLI tool supports most Bitcoin RPC instructions. Please check the API guide for specific details.
 !!!
 
-The `--help` option can be passed with any command to get additional details, for instance `retype start --help` will return all options for the `retype start` command.
+(CLI) is the command line interface tool of the Marscoin , you can use the command line in the terminal to interact with the node. This is useful for users who prefer to use a terminal or for servers without a graphical interface.
 
-The command `retype --version` will return the current version number of your Retype install. See all public Retype [releases](https://github.com/retypeapp/retype/releases).
+The `--help` option can be passed with any command to get additional details, for instance `Marscoin.Cli --help` will return all options for the `Marscoin.Cli` command.
 
-Let's go through each of the `retype` CLI commands and be sure to check out the [Getting Started](/guides/getting-started.md) guide for step-by-step instructions on using each of these commands.
+The command `Marscoin.Cli --version` will return the current version number of your Marscoin install. See all public Marscoin.Cli [JSON RPC](/api/basic-page.md).
+
+Let's go through each of the `Marscoin.Cli` CLI commands and be sure to check out the [Getting Started](/guides/getting-started.md) guide for step-by-step instructions on using each of these commands.
 
 ```
 Description:
@@ -40,20 +40,35 @@ Commands:
 
 ---
 
-## `retype start`
+## `Create Wallet`
 
-The `retype start` command is the easiest way to get your project built and running in a browser within seconds.
+The `createwallet` command is the easiest way to get your project built and running in a browser within seconds.
 
-```
-retype start
-```
+[!badge walletname] input your wallet name, [!badge password] input wallet password.
 
-The `retype start` command will also watch for file changes and will automatically update the website in your web browser with the updated page.
-
-The `retype start` command automatically opens the default web browser on your machine and loads the website into the browser. You can suppress this automatic opening of the default web browser by passing the `--no-open` flag or its alias `-n`.
+#### Windows
 
 ```
-retype start -n
+Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=332 createwallet walletname password
+```
+
+#### Linux
+
+```
+dotnet Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=332 createwallet walletname password
+```
+
+The returned [!badge result] contains 12 characters, which is the wallet mnemonic,please save it.
+
+#### Response
+
+```
+{
+    "result": [
+        ""
+    ],
+    "error": null
+}
 ```
 
 ### Options
