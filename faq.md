@@ -6,7 +6,7 @@ label: FAQ
 
 ## What is Marscoin?
 
-Marscoin is inspired by Musk’s Mars immigration plan and Musk’s 2021 tweets on X (Here). The goal is to use innovative, cutting-edge algorithms to enable true decentralized finance in a future on Mars.
+Marscoin is inspired by Musk’s Mars immigration plan and Musk’s 2021 tweets on X [Here](https://x.com/elonmusk/status/1361709250561642498). The goal is to use innovative, cutting-edge algorithms to enable true decentralized finance in a future on Mars.
 
 ## What is the ticker?
 
@@ -14,7 +14,7 @@ Ticker for Marscoin asset is MSC.
 
 ## What's algorithm used in this project?
 
-The new algorithm is called "XmarsHash",a dynamic X13+SHA512 algorithm (supports CPU/GPU). More detailed information you can find [here](https://mars)
+The new algorithm is called "XmarsHash",a dynamic X13+SHA512 algorithm (supports CPU/GPU). More detailed information you can find [here](/whitepaper.md)
 
 ## Can I run mining on GPU or CPU only?
 
@@ -22,7 +22,7 @@ Yes, you can Miner uses both GPU and CPU.
 
 ## Where can I find the latest releases of the node+wallet and miner?
 
-You can find precompiled binaries of Node+Wallet:[here]()
+You can find precompiled binaries of Node+Wallet:[here](/GettingStarted/Download-binaries.md)
 
 See README.md in these repos for usage information.
 
@@ -44,7 +44,7 @@ Here is the estimated circulating supply for the next 5 years:
 
 》Fifth year: ~10,502,000 MSC circulating supply
 
-Note: The maximum supply is 21M MSC, and the reward of 2 MSC per block is halved every 5 years.
+Note: The maximum supply is 21M MSC, and the reward of 1 MSC per block is halved every 5 years.
 
 ## I want to work with the team. How can I apply?
 
