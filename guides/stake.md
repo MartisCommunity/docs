@@ -41,4 +41,4 @@ Use a web browser to enter the wallet management interface and click the pledge 
 
 After the pledge is successful, we can see as shown in the picture below that the pledge enters and waits for the block distribution. Specific allocation details can be found [here](https://github.com/block-core/blockcore/blob/master/Documentation/proof-of-stake.md)
 
-![Stake success](image.png)
+![Stake success](/static/image.png)
