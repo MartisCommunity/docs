@@ -38,10 +38,10 @@ RPC | 29432
 
 #### Add Node
 
-IP |
-:---    |
-addnode=148.66.155.42
-addnode=37.148.205.6
+IP   |
+:---   |
+148.66.155.42 |
+37.148.205.6 |
 
 
 ## Quick Facts :zap::zap::zap:
