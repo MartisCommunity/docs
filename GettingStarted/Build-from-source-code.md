@@ -43,7 +43,7 @@ To compile and run the node, you need
 Now that we have git we can clone the Warthog repository from GitHub:
 
 ```
-git clone https://github.com/ouranos-project/ouranos-wallet.git
+git clone https://github.com/marscoinnetwork/node.git
 ```
 
 #### Compiling
