@@ -24,16 +24,16 @@ The centralization problem is essentially a wealth distribution problem! Marscoi
 
 Type   | Port
 :---   | :---:
-P2P | 19334
-API | 19333
+P2P | 19333
+API | 19334
 RPC | 19332
 
 #### TestNet
 
 Type   | Port
 :---   | :---:
-P2P | 29434
-API | 29433
+P2P | 29433
+API | 29434
 RPC | 29432
 
 #### Add Node
