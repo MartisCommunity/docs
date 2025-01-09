@@ -4,13 +4,15 @@ label: FAQ
 ---
 # Frequently Asked Questions
 
-## What is Marscoin?
+## What is Martiscoin?
 
-Marscoin is inspired by Musk’s Mars immigration plan and Musk’s 2021 tweets on X [Here](https://x.com/elonmusk/status/1361709250561642498). The goal is to use innovative, cutting-edge algorithms to enable true decentralized finance in a future on Mars.
+Martis comes from Latin, meaning "Mars".
+
+Martiscoin is inspired by Musk’s Mars immigration plan and Musk’s 2021 tweets on X [Here](https://x.com/elonmusk/status/1361709250561642498). The goal is to use innovative, cutting-edge algorithms to enable true decentralized finance in a future on Mars.
 
 ## What is the ticker?
 
-Ticker for Marscoin asset is MSC.
+Ticker for Martiscoin asset is MSC.
 
 ## What's algorithm used in this project?
 

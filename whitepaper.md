@@ -3,7 +3,7 @@ icon: question
 label: Whitepaper
 order: 80
 ---
-# Marscoin-the universal currency on Mars
+# Martiscoin-the universal currency on Mars
 
 !!!
 This white paper is a work in progress.
@@ -11,15 +11,17 @@ This white paper is a work in progress.
 
 ## Introduction and Project goals
 
-[Marscoin](https://marscoin.network/) is a :sparkles: Groundbreaking Layer 1 :sparkles: [!badge The first decentralized mining pool blockchain] Is inspired by Musk’s Mars immigration plan and Musk’s 2021 tweets on X ([Here](https://x.com/elonmusk/status/1361709250561642498)). The goal is to use innovative, cutting-edge algorithms to enable true decentralized finance in a future on Mars.
+Martis comes from Latin, meaning "Mars".
 
-Marscoin have developed a brand new mining algorithm (XmarsHash) to combat ASCI miners and Mining pools, a dynamic X13+SHA512 algorithm (supports CPU/GPU).
+[Martiscoin](https://martiscoin.org/) is a :sparkles: Groundbreaking Layer 1 :sparkles: [!badge The first decentralized mining pool blockchain] Is inspired by Musk’s Mars immigration plan and Musk’s 2021 tweets on X ([Here](https://x.com/elonmusk/status/1361709250561642498)). The goal is to use innovative, cutting-edge algorithms to enable true decentralized finance in a future on Mars.
 
-[Marscoin]
+Martiscoin have developed a brand new mining algorithm (XmarsHash) to combat ASCI miners and Mining pools, a dynamic X13+SHA512 algorithm (supports CPU/GPU).
+
+[Martiscoin]
 > “The centralization is essentially an economic distribution problem,\
 > Work will definitely pay off.” *- mars-dev*
 
-The centralization problem is essentially a wealth distribution problem! Marscoin builds a new distribution mechanism (interval reward distribution mechanism) based on the underlying economic model to solve the centralization problem. Centralization cannot bring greater economic benefits. Therefore, the willingness to centralization will be greatly reduced, thereby ultimately achieving the goal of decentralization.
+The centralization problem is essentially a wealth distribution problem! Martiscoin builds a new distribution mechanism (interval reward distribution mechanism) based on the underlying economic model to solve the centralization problem. Centralization cannot bring greater economic benefits. Therefore, the willingness to centralization will be greatly reduced, thereby ultimately achieving the goal of decentralization.
 
 
 ## Satoshi’s vision
@@ -34,11 +36,11 @@ We all know that his hopes have not been fulfilled, today Bitcoin is mined on sp
 
 We know that there are many teams working on solving the problem of centralized mining. They tried many methods, but always came up with software and hardware algorithms to solve the centralization problem. In fact, they all ignored an important point: centralization is essentially a question of interest distribution,This is an economic problem that must be solved from a distributional perspective.
 
-Today, Marscoin integrates a decentralized mining pool into the blockchain for the first time. Through two workload proofs, the problem of centralized mining was perfectly solved and Satoshi Nakamoto’s wish was truly realized.
+Today, Martiscoin integrates a decentralized mining pool into the blockchain for the first time. Through two workload proofs, the problem of centralized mining was perfectly solved and Satoshi Nakamoto’s wish was truly realized.
 
 ## Technical Details
 
-Marscoin core base on Blockcore, is a platform to build Layer 1 consensus networks based on the Bitcoin protocol.We reconstructed the POW algorithm and block allocation consensus above.
+Martiscoin core base on Blockcore, is a platform to build Layer 1 consensus networks based on the Bitcoin protocol.We reconstructed the POW algorithm and block allocation consensus above.
 
 #### POW Algorithm (XmarsHash)
 
@@ -94,7 +96,7 @@ About the twice of proof of work
 ## Emission Scheme
 
 !!!
-Marscoin has a fixed maximum supply of 21M MSC.Mining block starts at around 1 MSC.The reward is automatically halved after every 10,000,000 blocks mined - this happens approximately every 5 years based on the 15 second interval it typically takes to mine a block.
+Martiscoin has a fixed maximum supply of 21M MSC.Mining block starts at around 1 MSC.The reward is automatically halved after every 10,000,000 blocks mined - this happens approximately every 5 years based on the 15 second interval it typically takes to mine a block.
 !!!
 
 Every day approximately 60/15 * 60 * 24 = 5760 blocks and 5760 MSC

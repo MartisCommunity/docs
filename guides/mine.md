@@ -6,20 +6,20 @@ order: 30
 # How to mine
 
 !!!
-This guide contains all needed information to start mining Marscoin, on your own node.
+This guide contains all needed information to start mining Martiscoin, on your own node.
 !!!
 
-Marscoin is a Proof of Work (PoW) blockchain, which means that miners must solve complex mathematical problems to add new blocks to the blockchain and receive rewards. Their tasks are to find a hash that matches the difficulty target set by the network, ensuring that the block is valid and accepted by the network.
+Martiscoin is a Proof of Work (PoW) blockchain, which means that miners must solve complex mathematical problems to add new blocks to the blockchain and receive rewards. Their tasks are to find a hash that matches the difficulty target set by the network, ensuring that the block is valid and accepted by the network.
 
 The main role of the miner is to secure the network by validating transactions and adding them to the blockchain.
 
-Marscoin node integrates wallet and miner.You only need to enable relevant configurations in the node configuration to automatically enter cycle mining.Before you can start mining, you must first create a wallet.
+Martiscoin node integrates wallet and miner.You only need to enable relevant configurations in the node configuration to automatically enter cycle mining.Before you can start mining, you must first create a wallet.
 
 ---
 
 ## Start Mining
 
-Marscoin supports CPU and GPU mining. 
+Martiscoin supports CPU and GPU mining. 
 
 >NOTE: A node can only run one mining method.
 

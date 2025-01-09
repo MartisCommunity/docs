@@ -1,10 +1,10 @@
 ---
 icon: note
 ---
-# Run Marscoin node
+# Run Martiscoin node
 
 
-Marscoin node integrates wallet and miner.For operations on marscoin, you need a node instance running on your computer. Currently, precompiled node executables are available for Windows, Linux. Once started, the node will start synchronizing the blockchain, and once completed, you can operate with the wallet and start mining.
+Martiscoin node integrates wallet and miner.For operations on martiscoin, you need a node instance running on your computer. Currently, precompiled node executables are available for Windows, Linux. Once started, the node will start synchronizing the blockchain, and once completed, you can operate with the wallet and start mining.
 
 ## Windows
 
@@ -18,8 +18,8 @@ https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-8.0.404-windows
 
 #### Download node and run
 
-Double click the [!badge Marscore.Node.exe] to start Marscoin node.After the startup is complete, the wallet can be created through a web browser.
-![Run a Marscoin node](/static/node-1.png)
+Double click the [!badge Marscore.Node.exe] to start Martiscoin node.After the startup is complete, the wallet can be created through a web browser.
+![Run a Martiscoin node](/static/node-1.png)
 
 
 ## Linux(Ubuntu 24.10)
@@ -47,4 +47,4 @@ dotnet Marscore.Node.dll
 ```
 If you see the following screenshot interface, it means that the node has been running successfully.
 
-![Run a Marscoin node](/static/node-2.png)
+![Run a Martiscoin node](/static/node-2.png)

@@ -4,17 +4,19 @@ icon: home
 ---
 ![](/static/banner.png)
 
-# Welcome to Marscoin
+# Welcome to Martiscoin
 
-[Marscoin](https://marscoin.network/) is a :sparkles: Groundbreaking Layer 1 :sparkles: , is inspired by Musk’s Mars immigration plan and Musk’s 2021 tweets on X ([Here](https://x.com/elonmusk/status/1361709250561642498)). The goal is to use innovative, cutting-edge algorithms to enable true decentralized finance in a future on Mars.
+Martis comes from Latin, meaning "Mars".
 
-Marscoin have developed a brand new mining algorithm (XmarsHash) to combat ASCI miners and Mining pools, a dynamic X13+SHA512 algorithm (supports CPU/GPU).
+[Martiscoin](https://martiscoin.org/) is a :sparkles: Groundbreaking Layer 1 :sparkles: , is inspired by Musk’s Mars immigration plan and Musk’s 2021 tweets on X ([Here](https://x.com/elonmusk/status/1361709250561642498)). The goal is to use innovative, cutting-edge algorithms to enable true decentralized finance in a future on Mars.
 
-[Marscoin]
+Martiscoin have developed a brand new mining algorithm (XmarsHash) to combat ASCI miners and Mining pools, a dynamic X13+SHA512 algorithm (supports CPU/GPU).
+
+[Martiscoin]
 > “The centralization is essentially an economic distribution problem,\
 > Work will definitely pay off.” *- mars-dev*
 
-The centralization problem is essentially a wealth distribution problem! Marscoin builds a new distribution mechanism (interval reward distribution mechanism) based on the underlying economic model to solve the centralization problem. Centralization cannot bring greater economic benefits. Therefore, the willingness to decentralize will be greatly reduced, thereby ultimately achieving the goal of decentralization.
+The centralization problem is essentially a wealth distribution problem! Martiscoin builds a new distribution mechanism (interval reward distribution mechanism) based on the underlying economic model to solve the centralization problem. Centralization cannot bring greater economic benefits. Therefore, the willingness to decentralize will be greatly reduced, thereby ultimately achieving the goal of decentralization.
 
 ---
 
@@ -55,7 +57,7 @@ XmarsHash algorithm resists ASIC/FPGA devices.
 
 #### :icon-gear: Open Source
 
-All source code is publicly available on [Github](https://github.com/marscoinnetwork).
+All source code is publicly available on [Github](https://github.com/martiscoin).
 
 #### :icon-plug: No Dev Fees
 
@@ -83,6 +85,6 @@ Transaction fees are very low, often less than 0.00001 MSC.
 
 Do you have a technical support question, found a defect, or would like to make a feature request? Please create an [issue](https://discord.gg/HSk92SEM83) and we will investigate right away.
 
-Do you have a general inquiry? Please feel free to contact us at service@marscoin.network.
+Do you have a general inquiry? Please feel free to contact us at service@martiscoin.org.
 
 We :heart: feedback.

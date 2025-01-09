@@ -5,7 +5,7 @@ label: Node
 # Node API
 
 You can use this API to interact with a wallet, check the balance, or build a transaction.
-It contains all the necessary methods for developing an application or integrate Marscoin into your system.
+It contains all the necessary methods for developing an application or integrate Martiscoin into your system.
 
 ### Methods
 ---
@@ -15,7 +15,7 @@ It contains all the necessary methods for developing an application or integrate
 Gets general information about the full node.
 
 ```
-Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=332 getinfo
+Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 getinfo
 ```
 
 #### `getblockcount`
@@ -23,7 +23,7 @@ Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=3
 Gets the current consensus tip height.
 
 ```
-Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=332 getblockcount
+Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 getblockcount
 ```
 
 #### `getblockheader`
@@ -31,7 +31,7 @@ Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=3
 Gets the block header of the block identified by the hash.
 
 ```
-Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=332 getblockheader {hash}
+Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 getblockheader {hash}
 ```
 
 #### `validateaddress`
@@ -39,7 +39,7 @@ Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=3
 Returns information about a bech32 or base58 bitcoin address.
 
 ```
-Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=332 validateaddress {address}
+Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 validateaddress {address}
 ```
 
 #### `getblock`
@@ -47,7 +47,7 @@ Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=3
 Returns the block in hex, given a block hash.
 
 ```
-Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=332 getblock {blockHash}
+Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 getblock {blockHash}
 ```
 
 #### `getnetworkinfo`
@@ -55,7 +55,7 @@ Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=3
 Returns an object containing various state info regarding P2P networking.
 
 ```
-Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=332 getnetworkinfo
+Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 getnetworkinfo
 ```
 
 #### `getblockchaininfo`
@@ -63,7 +63,7 @@ Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=3
 Returns an object containing various state info regarding blockchain processing.
 
 ```
-Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=332 getblockchaininfo
+Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 getblockchaininfo
 ```
 
 #### `addnode`
@@ -71,7 +71,7 @@ Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=3
 Adds a node to the connection manager..{command}:add,remove,onetry
 
 ```
-Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=332 addnode {ip} {command}
+Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 addnode {ip} {command}
 ```
 
 #### `getpeerinfo`
@@ -79,5 +79,5 @@ Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=3
 Gets peer information from the connection manager.
 
 ```
-Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=332 getpeerinfo
+Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 getpeerinfo
 ```

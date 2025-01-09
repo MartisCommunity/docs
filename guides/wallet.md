@@ -6,7 +6,7 @@ order: 100
 # Create your wallet
 
 !!!
-Create wallet using web browser.This is the GUI wallet for Marscoin which is compatible with MacOS, Windows and Linux.
+Create wallet using web browser.This is the GUI wallet for Martiscoin which is compatible with MacOS, Windows and Linux.
 !!!
 
 Run the node and enter the following address in the web browser:

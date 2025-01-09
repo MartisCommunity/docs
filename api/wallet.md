@@ -6,7 +6,7 @@ label: Wallet
 # Wallet API
 
 You can use this API to interact with a wallet, check the balance, or build a transaction.
-It contains all the necessary methods for developing an application or integrate Marscoin into your system.
+It contains all the necessary methods for developing an application or integrate Martiscoin into your system.
 
 
 ### Methods
@@ -17,7 +17,7 @@ It contains all the necessary methods for developing an application or integrate
 Creates a new wallet on this full node.
 
 ```
-Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=332 createwallet {walletname} {password}
+Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 createwallet {walletname} {password}
 ```
 
 #### `sendtoaddress`
@@ -25,7 +25,7 @@ Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=3
 Sends money to an address. Requires wallet to be unlocked using walletpassphrase.
 
 ```
-Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=332 sendtoaddress {address} {amount}
+Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 sendtoaddress {address} {amount}
 ```
 
 #### `setwallet`
@@ -33,7 +33,7 @@ Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=3
 Selects the active wallet on RPC based on the name of the wallet supplied.
 
 ```
-Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=332 setwallet {walletname}
+Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 setwallet {walletname}
 ```
 
 #### `getnewaddress`
@@ -41,7 +41,7 @@ Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=3
 Returns a new wallet address for receiving payments.
 
 ```
-Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=332 getnewaddress
+Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 getnewaddress
 ```
 
 #### `getbalance`
@@ -49,7 +49,7 @@ Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=3
 Gets wallets spendable balance.
 
 ```
-Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=332 getbalance
+Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 getbalance
 ```
 
 #### `gettransaction`
@@ -57,7 +57,7 @@ Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=3
 Get detailed information about an in-wallet transaction.
 
 ```
-Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=332 gettransaction {txid}
+Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 gettransaction {txid}
 ```
 
 #### `sendmany`
@@ -65,7 +65,7 @@ Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=3
 Creates and broadcasts a transaction which sends outputs to multiple addresses.
 
 ```
-Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=332 sendmany {fromAccount} {addressesJson}
+Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 sendmany {fromAccount} {addressesJson}
 ```
 
 #### `getwalletinfo`
@@ -73,5 +73,5 @@ Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=3
 Provides information about the wallet.
 
 ```
-Marscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=332 getwalletinfo
+Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 getwalletinfo
 ```

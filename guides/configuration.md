@@ -5,7 +5,7 @@ icon: file
 ---
 # Node configuration
 
-In this page, we will explain the relevant configuration information of the node. Marscoin is a platform built on Blockcore for building a first-layer consensus network based on the Bitcoin protocol. Therefore, the relevant configuration parameters remain consistent with Bitcoin.The node directory is as follows:
+In this page, we will explain the relevant configuration information of the node. martiscoin is a platform built on Blockcore for building a first-layer consensus network based on the Bitcoin protocol. Therefore, the relevant configuration parameters remain consistent with Bitcoin.The node directory is as follows:
 
 ## Node Directory Path
 
@@ -23,7 +23,7 @@ Enter the following command in the folder directory address bar.
 
 #### Linux
 
-If you start the marscoin node using the root account.
+If you start the martiscoin node using the root account.
 
 ```
 cd /root/.marscore
@@ -31,7 +31,7 @@ cd /root/.marscore
 
 ## Seed Nodes
 
-These are seed nodes hosted by us. The network does not requires them to be up at all time because Marscoin is a decentralized network. However we provide them for others who can't run one for whatever reasons.
+These are seed nodes hosted by us. The network does not requires them to be up at all time because martiscoin is a decentralized network. However we provide them for others who can't run one for whatever reasons.
 
 Location   | Endpoint
 :---   |
@@ -40,7 +40,7 @@ United State |
 Germany | 
 Hong Kong | 
 
-More additional node information can be found [here](https://explorer.marscoin.network/network)
+More additional node information can be found [here](https://explorer.martiscoin.org/network)
 
 #### Add a node in the wallet interface
 

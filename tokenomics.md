@@ -7,7 +7,7 @@ order: 100
 
 ## Max supply
 
-Marscoin has a fixed maximum supply of 21M MSC.
+Martiscoin has a fixed maximum supply of 21M MSC.
 
 ## Mining reward
 

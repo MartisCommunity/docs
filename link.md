@@ -21,7 +21,7 @@ order: 2000
 
 ## Explorer
 
-[explorer.marscoin.network](https://explorer.marscoin.network/)
+[explorer.martiscoin.org](https://explorer.martiscoin.org/)
 
 ## Bitcointalk
 
