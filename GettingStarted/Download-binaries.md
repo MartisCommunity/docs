@@ -10,9 +10,9 @@ icon: download
 
 To give an easier way to install the software, we provide precompiled binaries for different platforms. We support the following platforms:
 
-- Windows
-- Linux
-- MacOS
+- [Windows](https://github.com/martiscoin/node/releases)
+- [Linux](https://github.com/martiscoin/node/releases)
+- [MacOS](https://github.com/martiscoin/node/releases)
 
 To download the latest version available, please visit the Releases page.
 

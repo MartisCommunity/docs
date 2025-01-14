@@ -18,7 +18,7 @@ The configuration file is in the node directory,[!badge msc.conf].
 Enter the following command in the folder directory address bar.
 
 ```
-%Appdata%\marscore
+%Appdata%\martiscoin
 ```
 
 #### Linux
@@ -26,7 +26,7 @@ Enter the following command in the folder directory address bar.
 If you start the martiscoin node using the root account.
 
 ```
-cd /root/.marscore
+cd /root/.martiscoin
 ```
 
 ## Seed Nodes

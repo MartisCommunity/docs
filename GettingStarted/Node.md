@@ -18,7 +18,7 @@ https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-8.0.404-windows
 
 #### Download node and run
 
-Double click the [!badge Marscore.Node.exe] to start Martiscoin node.After the startup is complete, the wallet can be created through a web browser.
+Double click the [!badge Martiscoin.Node.exe] to start Martiscoin node.After the startup is complete, the wallet can be created through a web browser.
 ![Run a Martiscoin node](/static/node-1.png)
 
 
@@ -43,7 +43,7 @@ sudo apt-get install -y dotnet-sdk-8.0
 Download the node file and after decompression is complete, enter the following command
 
 ```
-dotnet Marscore.Node.dll
+dotnet Martiscoin.Node.dll
 ```
 If you see the following screenshot interface, it means that the node has been running successfully.
 

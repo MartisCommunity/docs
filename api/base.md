@@ -10,6 +10,12 @@ Currently, the CLI tool supports most Bitcoin RPC instructions. Please check the
 
 (CLI) is the command line interface tool of the Martiscoin , you can use the command line in the terminal to interact with the node. This is useful for users who prefer to use a terminal or for servers without a graphical interface.
 
+### Download cli tool
+
+[https://github.com/martiscoin/cli/releases](https://github.com/martiscoin/cli/releases)
+
+### Run cli
+
 The `--help` option can be passed with any command to get additional details, for instance `Martiscoin.Cli --help` will return all options for the `Martiscoin.Cli` command.
 
 The command `Martiscoin.Cli --version` will return the current version number of your Martiscoin install. See all public Martiscoin.Cli [JSON RPC].

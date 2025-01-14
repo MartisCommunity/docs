@@ -12,7 +12,7 @@ Create wallet using web browser.This is the GUI wallet for Martiscoin which is c
 Run the node and enter the following address in the web browser:
 
 ```
-http://127.0.0.1:334
+http://127.0.0.1:29334
 ```
 
 Click the menu on the left to enter wallet management.After entering the wallet management interface,Click the Create Wallet button and enter the wallet name, password, etc. in the pop-up window.

@@ -43,7 +43,7 @@ To compile and run the node, you need
 Now that we have git we can clone the Warthog repository from GitHub:
 
 ```
-git clone https://github.com/marscoinnetwork/node.git
+git clone https://github.com/martiscoin/node.git
 ```
 
 #### Compiling
