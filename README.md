@@ -34,16 +34,9 @@ RPC | 19332
 
 Type   | Port
 :---   | :---:
-P2P | 29433
-API | 29434
-RPC | 29432
-
-#### Add Node
-
-```
-addnode=148.66.155.42
-addnode=37.148.205.6
-```
+P2P | 39433
+API | 39434
+RPC | 39432
 
 ## Quick Facts :zap::zap::zap:
 

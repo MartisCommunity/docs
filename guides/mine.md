@@ -50,3 +50,5 @@ opencldevice=
 ## Monitor your miner
 
 You can monitor your miner by reviewing the logs in the terminal. Theses logs provide real-time updates on your miner's status, including whether you have found a block, if it has been accepted or rejected, and your current hashrate.
+
+![Mining](/static/mine-1.png)

@@ -25,9 +25,14 @@ order: 2000
 
 ## Bitcointalk
 [Welcome to the Martiscoin](https://bitcointalk.org/index.php?topic=5525678.0)
+
 ## Discord
 
 [https://discord.gg/HSk92SEM83](https://discord.gg/HSk92SEM83)
+
+## Telegram
+
+[https://t.me/martiscoin](https://t.me/martiscoin)
 
 ## Twitter
 

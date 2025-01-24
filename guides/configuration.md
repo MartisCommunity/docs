@@ -71,3 +71,28 @@ rpcallowip=127.0.0.1
 rpcuser=
 rpcpassword=
 ```
+
+
+## Whitelist
+
+Whitelist peers having the given IP:port address, both inbound or outbound. Can be specified multiple times.
+
+```
+whitelist=<ip:port>
+```
+
+## Outbound Connections
+
+The maximum number of outbound connections. Default 16.
+
+```
+maxoutboundconnections=<number>
+```
+
+## Inbound Connections
+
+The maximum number of inbound connections. Default 109.
+
+```
+maxinboundconnections=<number>
+```

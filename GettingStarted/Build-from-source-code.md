@@ -48,4 +48,4 @@ git clone https://github.com/martiscoin/node.git
 
 #### Compiling
 
-Open the [!badge Marscore.sln] file using [!badge Visual Studio 2022], set [!badge Marscore.Node] as the startup project, and click run.
+Open the [!badge Martiscoin.sln] file using [!badge Visual Studio 2022], set [!badge Martiscoin.Node] as the startup project, and click run.

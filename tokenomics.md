@@ -11,7 +11,7 @@ Martiscoin has a fixed maximum supply of 21M MSC.
 
 ## Mining reward
 
-Mining block starts at around 1 MSC.The reward is automatically halved after every 10,000,000 blocks mined - this happens approximately every 5 years based on the 15 second interval it typically takes to mine a block.
+Mining block starts at around 2 MSC.The reward is automatically halved after every 10,000,000 blocks mined - this happens approximately every 5 years based on the 30 second interval it typically takes to mine a block.
 
 ## Mining Reward distribution
 

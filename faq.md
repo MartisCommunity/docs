@@ -46,7 +46,7 @@ Here is the estimated circulating supply for the next 5 years:
 
 》Fifth year: ~10,502,000 MSC circulating supply
 
-Note: The maximum supply is 21M MSC, and the reward of 1 MSC per block is halved every 5 years.
+Note: The maximum supply is 21M MSC, and the reward of 2 MSC per block is halved every 5 years.
 
 ## I want to work with the team. How can I apply?
 
