@@ -58,7 +58,7 @@ No unfair allocation to anybody aka "development" funds.
 
 #### :icon-pencil: PoW + PoS
 
-Pos starts from block height 50,000
+Pos starts from block height 25,000
 
 #### :icon-sync: Decentralization
 
