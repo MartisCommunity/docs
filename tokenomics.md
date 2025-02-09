@@ -9,6 +9,12 @@ order: 100
 
 Martiscoin has a fixed maximum supply of 21M MSC.
 
+ Distribute| Per
+:--- | :---:
+Pre-sale | 0.45%
+TestNet | 0.55%
+Mine&Pos | 99.0%
+
 ![alt text](/static/token-1.png)
 
 ## Mining reward
