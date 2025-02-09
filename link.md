@@ -32,7 +32,7 @@ order: 2000
 
 ## Telegram
 
-[https://t.me/martiscoin](https://t.me/martiscoin)
+[https://t.me/martiscoin](https://t.me/marscoinnetwork)
 
 ## Twitter
 
