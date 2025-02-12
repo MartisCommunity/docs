@@ -15,7 +15,7 @@ It contains all the necessary methods for developing an application or integrate
 Gets general information about the full node.
 
 ```
-Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 getinfo
+dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 getinfo
 ```
 
 #### `getblockcount`
@@ -23,7 +23,7 @@ Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport
 Gets the current consensus tip height.
 
 ```
-Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 getblockcount
+dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 getblockcount
 ```
 
 #### `getblockheader`
@@ -31,7 +31,7 @@ Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport
 Gets the block header of the block identified by the hash.
 
 ```
-Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 getblockheader {hash}
+dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 getblockheader {hash}
 ```
 
 #### `validateaddress`
@@ -39,7 +39,7 @@ Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport
 Returns information about a bech32 or base58 bitcoin address.
 
 ```
-Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 validateaddress {address}
+dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 validateaddress {address}
 ```
 
 #### `getblock`
@@ -47,7 +47,7 @@ Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport
 Returns the block in hex, given a block hash.
 
 ```
-Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 getblock {blockHash}
+dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 getblock {blockHash}
 ```
 
 #### `getnetworkinfo`
@@ -55,7 +55,7 @@ Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport
 Returns an object containing various state info regarding P2P networking.
 
 ```
-Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 getnetworkinfo
+dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 getnetworkinfo
 ```
 
 #### `getblockchaininfo`
@@ -63,7 +63,7 @@ Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport
 Returns an object containing various state info regarding blockchain processing.
 
 ```
-Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 getblockchaininfo
+dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 getblockchaininfo
 ```
 
 #### `addnode`
@@ -71,7 +71,7 @@ Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport
 Adds a node to the connection manager..{command}:add,remove,onetry
 
 ```
-Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 addnode {ip} {command}
+dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 addnode {ip} {command}
 ```
 
 #### `getpeerinfo`
@@ -79,5 +79,5 @@ Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport
 Gets peer information from the connection manager.
 
 ```
-Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 getpeerinfo
+dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 getpeerinfo
 ```

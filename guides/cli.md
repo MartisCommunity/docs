@@ -18,13 +18,13 @@ The `createwallet` command is the easiest way to get your project built and runn
 #### Windows
 
 ```
-Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 createwallet {walletname} {password}
+dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 createwallet {walletname} {password}
 ```
 
 #### Linux
 
 ```
-dotnet Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 createwallet {walletname} {password}
+dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 createwallet {walletname} {password}
 ```
 
 The returned [!badge result] contains 12 characters, which is the wallet mnemonic,please save it.

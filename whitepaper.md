@@ -96,10 +96,10 @@ About the twice of proof of work
 ## Emission Scheme
 
 !!!
-Martiscoin has a fixed maximum supply of 21M MSC.Mining block starts at around 2 MSC.The reward is automatically halved after every 10,000,000 blocks mined - this happens approximately every 5 years based on the 30 second interval it typically takes to mine a block.
+Martiscoin has a fixed maximum supply of 21M MSC.Mining block starts at around 2 MSC.The reward is automatically halved after every 5,000,000 blocks mined - this happens approximately every 5 years based on the 30 second interval it typically takes to mine a block.
 !!!
 
-Every day approximately 60/30 * 60 * 24 * 2 = 5760 blocks and 5760 MSC
+Every day approximately 60/30 * 60 * 24 * 2 = 2880 blocks and 5760 MSC
 
 #### The emission for the next 10 years is summarized in the following table
 

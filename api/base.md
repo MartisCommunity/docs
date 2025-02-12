@@ -24,7 +24,7 @@ Let's go through each of the `Martiscoin.Cli` CLI commands and be sure to check 
 
 ```shell Martiscoin.CLI
 Usage:
- dotnet run <Martiscoin..Cli/Martiscoin.Cli.dll> [options] <command> [arguments]
+ dotnet <Martiscoin..Cli/Martiscoin.Cli.dll> [options] <command> [arguments]
 
 Command line arguments:
 
@@ -40,7 +40,7 @@ Options:
 -rpcpassword=<pw>                  Password for JSON-RPC connections
 
 Examples:
-dotnet run Martiscoin.Cli -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 getinfo - Displays general information about the Stratis node on the 127.0.0.3:29332, authenticating with the RPC specified user.
+dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 getinfo - Displays general information about the Stratis node on the 127.0.0.3:29332, authenticating with the RPC specified user.
 ```
 
 !!!
