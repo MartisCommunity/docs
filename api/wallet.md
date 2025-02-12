@@ -17,7 +17,7 @@ It contains all the necessary methods for developing an application or integrate
 Creates a new wallet on this full node.
 
 ```
-dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 createwallet {walletname} {password}
+dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=19332 createwallet {walletname} {password}
 ```
 
 #### `sendtoaddress`
@@ -25,7 +25,7 @@ dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0
 Sends money to an address. Requires wallet to be unlocked using walletpassphrase.
 
 ```
-dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 sendtoaddress {address} {amount}
+dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=19332 sendtoaddress {toaddress} {walletpassword} {amount}
 ```
 
 #### `setwallet`
@@ -33,7 +33,7 @@ dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0
 Selects the active wallet on RPC based on the name of the wallet supplied.
 
 ```
-dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 setwallet {walletname}
+dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=19332 setwallet {walletname}
 ```
 
 #### `getnewaddress`
@@ -41,7 +41,7 @@ dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0
 Returns a new wallet address for receiving payments.
 
 ```
-dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 getnewaddress
+dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=19332 getnewaddress
 ```
 
 #### `getbalance`
@@ -49,7 +49,7 @@ dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0
 Gets wallets spendable balance.
 
 ```
-dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 getbalance
+dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=19332 getbalance
 ```
 
 #### `gettransaction`
@@ -57,7 +57,7 @@ dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0
 Get detailed information about an in-wallet transaction.
 
 ```
-dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 gettransaction {txid}
+dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=19332 gettransaction {txid}
 ```
 
 #### `sendmany`
@@ -65,7 +65,7 @@ dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0
 Creates and broadcasts a transaction which sends outputs to multiple addresses.
 
 ```
-dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 sendmany {fromAccount} {addressesJson}
+dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=19332 sendmany {fromAccount} {walletpassword} {addressesJson}
 ```
 
 #### `getwalletinfo`
@@ -73,5 +73,5 @@ dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0
 Provides information about the wallet.
 
 ```
-dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=29332 getwalletinfo
+dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=19332 getwalletinfo
 ```
