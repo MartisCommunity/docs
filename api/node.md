@@ -18,6 +18,10 @@ Gets general information about the full node.
 dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=19332 getinfo
 ```
 
+```
+curl -d {"\"method\"":\""getinfo\"","\"params\"":[]} http://admin:123456@127.0.0.1:19332
+```
+
 #### `getblockcount`
 
 Gets the current consensus tip height.

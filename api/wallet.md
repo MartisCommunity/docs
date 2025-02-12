@@ -44,6 +44,10 @@ Returns a new wallet address for receiving payments.
 dotnet Martiscoin.Cli.dll -rpcuser=admin -rpcpassword=123456 -rpcconnect=127.0.0.1 -rpcport=19332 getnewaddress
 ```
 
+```
+curl -d {"\"method\"":\""getnewaddress\"","\"params\"":[]} http://admin:123456@127.0.0.1:19332
+```
+
 #### `getbalance`
 
 Gets wallets spendable balance.
