@@ -8,7 +8,7 @@ icon: home
 
 Martis comes from Latin, meaning "Mars".
 
-[Martiscoin](https://martiscoin.org/) is a :sparkles: Groundbreaking Layer 1 :sparkles: , is inspired by Musk’s Mars immigration plan and Musk’s 2021 tweets on X ([Here](https://x.com/elonmusk/status/1361709250561642498)). The goal is to use innovative, cutting-edge algorithms to enable true decentralized finance in a future on Mars.
+[Martiscoin](https://martiscoin.net/) is a :sparkles: Groundbreaking Layer 1 :sparkles: , is inspired by Musk’s Mars immigration plan and Musk’s 2021 tweets on X ([Here](https://x.com/elonmusk/status/1361709250561642498)). The goal is to use innovative, cutting-edge algorithms to enable true decentralized finance in a future on Mars.
 
 Martiscoin have developed a brand new mining algorithm (XmarsHash) to combat ASCI miners and Mining pools, a dynamic X13+SHA512 algorithm (supports CPU/GPU).
 
@@ -50,7 +50,7 @@ XmarsHash algorithm resists ASIC/FPGA devices.
 
 #### :icon-gear: Open Source
 
-All source code is publicly available on [Github](https://github.com/martiscoin).
+All source code is publicly available on [Github](https://github.com/MartisCommunity).
 
 #### :icon-plug: No Dev Fees
 
@@ -77,7 +77,5 @@ Transaction fees are very low, often less than 0.00001 MSC.
 ## Support
 
 Do you have a technical support question, found a defect, or would like to make a feature request? Please create an [issue](https://discord.gg/HSk92SEM83) and we will investigate right away.
-
-Do you have a general inquiry? Please feel free to contact us at service@martiscoin.org.
 
 We :heart: feedback.

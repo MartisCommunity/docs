@@ -40,7 +40,7 @@ United State |
 Germany | 
 Hong Kong | 
 
-More additional node information can be found [here](https://explorer.martiscoin.org/network)
+More additional node information can be found [here](https://explorer.martiscoin.net:9911/block-explorer/network)
 
 #### Add a node in the wallet interface
 

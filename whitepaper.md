@@ -13,7 +13,7 @@ This white paper is a work in progress.
 
 Martis comes from Latin, meaning "Mars".
 
-[Martiscoin](https://martiscoin.org/) is a :sparkles: Groundbreaking Layer 1 :sparkles: [!badge The first decentralized mining pool blockchain] Is inspired by Musk’s Mars immigration plan and Musk’s 2021 tweets on X ([Here](https://x.com/elonmusk/status/1361709250561642498)). The goal is to use innovative, cutting-edge algorithms to enable true decentralized finance in a future on Mars.
+[Martiscoin](https://martiscoin.net/) is a :sparkles: Groundbreaking Layer 1 :sparkles: [!badge The first decentralized mining pool blockchain] Is inspired by Musk’s Mars immigration plan and Musk’s 2021 tweets on X ([Here](https://x.com/elonmusk/status/1361709250561642498)). The goal is to use innovative, cutting-edge algorithms to enable true decentralized finance in a future on Mars.
 
 Martiscoin have developed a brand new mining algorithm (XmarsHash) to combat ASCI miners and Mining pools, a dynamic X13+SHA512 algorithm (supports CPU/GPU).
 

@@ -4,7 +4,7 @@ icon: git-compare
 ---
 # Build from Source code
 
-This guide will help you build the Marscoin software from the source code.
+This guide will help you build the Martiscoin software from the source code.
 
 The software is divided into two parts:
 
@@ -43,7 +43,7 @@ To compile and run the node, you need
 Now that we have git we can clone the Warthog repository from GitHub:
 
 ```
-git clone https://github.com/martiscoin/node.git
+git clone https://github.com/MartisCommunity/node.git
 ```
 
 #### Compiling

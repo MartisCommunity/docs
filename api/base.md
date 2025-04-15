@@ -12,7 +12,7 @@ Currently, the CLI tool supports most Bitcoin RPC instructions. Please check the
 
 ### Download cli tool
 
-[https://github.com/martiscoin/cli/releases](https://github.com/martiscoin/cli/releases)
+[https://github.com/MartisCommunity/cli/releases](https://github.com/MartisCommunity/cli/releases)
 
 ### Run cli
 

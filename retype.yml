@@ -6,7 +6,7 @@ poweredByRetype: false
 
 outbound:
   exclude:
-    - martiscoin.org
+    - martiscoin.net
 
 breadcrumb:
   home: ":icon-home:"
@@ -32,7 +32,7 @@ start:
 
 input: ./
 output: .retype
-url: martiscoin.org
+url: martiscoin.net
 
 branding:
   logo: /static/retype-logo.svg
@@ -48,7 +48,7 @@ generator:
 
 links:
   - text: WebSite
-    link: https://martiscoin.org
+    link: https://martiscoin.net
     icon: heart
 
   - text: Twitter # Icon from https://iconmonstr.com
@@ -62,7 +62,7 @@ data:
     CSS: Cascading Style Sheet
 
 footer:
-  copyright: © Copyright {{ year }} – [martiscoin](https://martiscoin.org/) – All rights reserved
+  copyright: © Copyright {{ year }} – [martiscoin](https://martiscoin.net/) – All rights reserved
   links:
     - text: About
       link: about.md
